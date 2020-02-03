@@ -23,13 +23,13 @@ for (let i= 0; i < words.length; i++) {
     let currentValue = uniques.get(word);
 
 
-    if (uniques.set(word,)) {
+    if (uniques.set(word, currentValue)) {
         uniques.set(word, currentValue + 1);
        
 
     } else {
         uniques.set(word, currentValue = 1);   
-
+        
    }
 }
   console.log(uniques); 
