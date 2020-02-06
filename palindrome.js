@@ -4,8 +4,14 @@ function reverse(string) {
     return Array.from(string).reverse().join("");
 }
 
-// Returns true for palindrome, false otherwise.
-function palindrome(string) {
-    let processedContent = string.toLowerCase();
-    return processedContent === reverse(processedContent);
+// Defines a Phrase Object
+
+function Phrase(content) {
+    this.content = content;
+
+    // Returns true for palindrome, false otherwise.
+    this.palindrome = function palindrome() {
+        let processedContent = this.content.toLowerCase();
+        return processedContent === reverse(processedContent);
+}
 }
