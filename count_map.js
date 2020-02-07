@@ -1,9 +1,3 @@
-// let uniques = new Map();
-// uniques.set("loved", 0);
-//      Map { 'loved' => 0 }
-// let currentValue = uniques.get("loved");
-// uniques.set("loved", currentValue + 1);
-//          Map { 'loved' => 1 }
 
 const sonnet = `Let me not to the marriage of true minds
 Admit impediments. Love is not love
@@ -28,15 +22,23 @@ for (let i= 0; i < words.length; i++) {
     uniques.set(word, 0);
     let currentValue = uniques.get(word);
 
+<<<<<<< HEAD
     if (uniques.set(word, currentValue)) {
         uniques.set(word, currentValue + 1); 
+=======
+
+    if (uniques.set(word, currentValue)) {
+        uniques.set(word, currentValue + 1);
+       
+>>>>>>> b037777462c9edcb6a5dfa24b327080a9a41dc91
 
     } else {
-        uniques.set(word, currentValue = 1);
+        uniques.set(word, currentValue = 1);   
         
    }
 }
-  console.log(uniques);
+  console.log(uniques); 
+
 
 
 
