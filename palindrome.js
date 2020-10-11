@@ -31,3 +31,6 @@ function TranslatedPhrase(content, translation) {
 }
 
 TranslatedPhrase.prototype = new Phrase ();
+
+
+// comment for git setup check....funktioniert alles?
