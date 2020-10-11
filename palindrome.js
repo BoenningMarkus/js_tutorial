@@ -34,3 +34,4 @@ TranslatedPhrase.prototype = new Phrase ();
 
 
 // comment for git setup check....funktioniert alles?
+// zweiter Test comment, klappt es jetzt auch mit dem VS Code Terminal
